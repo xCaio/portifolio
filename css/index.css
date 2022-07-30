@@ -29,12 +29,15 @@ a {
     box-shadow: 5px 5px 0 black;
     vertical-align: middle;
     margin-right: 0;
+    transition: 0.5s;
 }
 #button:hover{
     transform: scale(1.1);
-    transition: 0.5s;
-    border-radius: 28px;
+    border-radius: 10px;
 
+}
+#button::before{
+    margin-right: -10px;
 }
 a::before{
     display: inline-block;
@@ -44,4 +47,3 @@ a::before{
     margin-right: 10px;
     background-color: #62C370;
 }
-
