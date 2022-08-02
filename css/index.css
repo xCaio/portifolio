@@ -20,25 +20,6 @@ a {
     text-decoration: none;
     margin-right: 30px;
 }
-
-#button {
-    /* DISPLAY INLINE NAO DEFINE LARGURA E ALTURA */
-    display: inline-block;
-    background-color: #62C370;
-    padding: 18px 20px;
-    box-shadow: 5px 5px 0 black;
-    vertical-align: middle;
-    margin-right: 0;
-    transition: 0.5s;
-}
-#button:hover{
-    transform: scale(1.1);
-    border-radius: 10px;
-
-}
-#button::before{
-    margin-right: -10px;
-}
 a::before{
     display: inline-block;
     content: "";
