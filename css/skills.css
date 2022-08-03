@@ -1,0 +1,10 @@
+.skills{
+    box-sizing: border-box;
+    background-color: #62C370;
+    height: 730px;
+    border-bottom: 10px solid #000;
+}
+.skills h2{
+    padding-top: 50px;
+    text-align: center;
+}
