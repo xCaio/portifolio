@@ -1,4 +1,4 @@
-.button {
+.main-button {
     /* DISPLAY INLINE NAO DEFINE LARGURA E ALTURA */
     display: inline-block;
     background-color: #62C370;
@@ -11,10 +11,10 @@
     color: #FFF;
     text-decoration: none;
 }
-.button:hover{
+.main-button:hover{
     transform: scale(1.1);
     border-radius: 10px;
 }
-.button::before{
+.main-button::before{
     margin-right: -10px;
 }
