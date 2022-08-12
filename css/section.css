@@ -7,3 +7,10 @@
 .section .main-title{
     margin-bottom: 60px;
 }
+.section.-skills{
+    border-bottom: 10px solid #7C5E99;
+}
+.section.-projetos{
+    background-color: #000;
+    border-bottom: 10px solid #F25A70;
+}

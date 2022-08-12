@@ -1,0 +1,18 @@
+.images-projetos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.images-projetos .images{
+    width: 280px;
+    height: 280px;
+    padding: 10px;
+    background-color: #7C5E99;
+    box-shadow: 9px 9px #FFF;
+}
+.images-projetos .images.-second{
+    box-shadow: 0px 0px #FFF;
+    padding: 0;
+    width: 290px;
+    height: 290px;
+}
