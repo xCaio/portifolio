@@ -34,6 +34,7 @@
     <link rel="stylesheet" href="css/components/main-carousel.css">
     <link rel="stylesheet" href="css/components/main-form.css">
     <link rel="stylesheet" href="css/components/main-footer.css">
+    <link rel="stylesheet" href="css/components/alert.css">
 
 
 </head>
@@ -210,15 +211,19 @@
 
     <section class="main-section -contatos">
         <h2 class="main-title -second">Contatos</h2>
-        <form action="GET" class="main-form">
-            <p class="main-description">Nome</p>
-            <input type="text" class="form">
-            <p class="main-description">Email</p>
-            <input type="text" class="form">
-            <p class="main-description">Mensagem</p>
-            <input type="text" class="form -menssagem">
+        <form action="" class="main-form">
+            <div class="alert"></div>
+            <label class="main-description">Nome</label>
+            <input id="name" type="text" class="form">
+            
 
-            <button class="main-button">Enviar</button>
+            <label class="main-description">Email</label>
+            <input id="email" type="text" class="form">
+
+            <label class="main-description">Mensagem</label>
+            <textarea id="message" type="text" class="form -menssagem"></textarea>
+
+            <button id="enviar" class="main-button">Enviar</button>
         </form>
     </section>
     <footer class="main-footer">
@@ -230,6 +235,7 @@
     </footer>
 
     <script src="js/components/main-carousel.js"></script>
+    <script src="js/components/main-contatos.js"></script>
 </body>
 
 </html>
