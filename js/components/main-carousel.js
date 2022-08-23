@@ -1,5 +1,3 @@
-
-
 const btnRight = window.document.querySelector('.button-arrow.-right');
 const btnLeft = window.document.querySelector('.button-arrow.-left');
 const elements = window.document.querySelector('.elements');

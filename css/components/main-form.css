@@ -1,0 +1,26 @@
+.main-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.form{
+    width: 95%;
+    height: 50px;
+    border: 5px solid #000;
+    margin: 20px auto;
+}
+.form.-menssagem{
+    height: 400px;
+}
+.main-form .main-description{
+    margin: 0;
+}
+.main-form .main-button{
+    margin: 40px auto;
+    width: 95%;
+    transition: 1s;
+}
+.main-form .main-button:hover{
+    transform: scale(1.01);
+    cursor: pointer;
+}
